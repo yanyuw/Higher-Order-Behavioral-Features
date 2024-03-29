@@ -1,0 +1,26 @@
+{
+  "actor": {
+    "name": "学习者"
+  },
+  "verb": {
+    "display": {
+      "zh-CN": "持续解决"
+    }
+  },
+  "object": {
+    "definition": {
+      "name": {
+        "zh-CN": "问题解决"
+      },
+      "description": {
+        "zh-CN": "学习者面对同一问题时不断尝试，表现出坚持解决问题的行为，反映了面对挑战时的持续努力。"
+      }
+    }
+  },
+  "context": {
+    "extensions": {
+      "http://example.com/extensions/BloomsTaxonomyLevel": ["应用"],
+      "http://example.com/extensions/matching_rule": "重复完成同一问题或接连完成不同问题的解决。"
+    }
+  }
+}

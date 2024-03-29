@@ -1,0 +1,26 @@
+{
+  "actor": {
+    "name": "学习者"
+  },
+  "verb": {
+    "display": {
+      "zh-CN": "探索学习"
+    }
+  },
+  "object": {
+    "definition": {
+      "name": {
+        "zh-CN": "任务到资源的探索"
+      },
+      "description": {
+        "zh-CN": "学习者在完成问题后主动寻找额外资源，展现了探索性学习的态度，表明了主动解决问题和自主学习的能力。"
+      }
+    }
+  },
+  "context": {
+    "extensions": {
+      "http://example.com/extensions/BloomsTaxonomyLevel": ["理解", "应用"],
+      "http://example.com/extensions/matching_rule": "从考察类任务到拓展性资源的学习重点转移。"
+    }
+  }
+}

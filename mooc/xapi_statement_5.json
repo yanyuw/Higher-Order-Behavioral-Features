@@ -1,0 +1,26 @@
+{
+  "actor": {
+    "name": "学习者"
+  },
+  "verb": {
+    "display": {
+      "zh-CN": "多媒体扩展学习"
+    }
+  },
+  "object": {
+    "definition": {
+      "name": {
+        "zh-CN": "不同资源的学习"
+      },
+      "description": {
+        "zh-CN": "学习者观看了多种教学资源，体现了知识扩展和深化的过程。"
+      }
+    }
+  },
+  "context": {
+    "extensions": {
+      "http://example.com/extensions/BloomsTaxonomyLevel": ["理解", "应用"],
+      "http://example.com/extensions/matching_rule": "对不同模态、类型的资源的学习重点转移。"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "actor": {
+    "name": "学习者"
+  },
+  "verb": {
+    "display": { "zh-CN": "" }
+  },
+  "object": {
+    "id": "http://example.edu/sequences/problem-solving-sequence",
+    "definition": {
+      "name": {
+        "zh-CN": "Problem-Solving Sequence with Video Tutorials and Additional Resources"
+      },
+      "description": {
+        "zh-CN": "Learner engages in a sequence of problem identification, seeks understanding through video tutorials, and applies knowledge by accessing additional resources."
+      }
+    }
+  },
+  "context": {
+    "contextActivities": {
+      "parent": [
+        {
+          "id": "http://example.edu/problem-solving",
+          "definition": {
+            "type": "http://adlnet.gov/expapi/activities/problem",
+            "name": { "zh-CN": "Problem Identification and Analysis" },
+            "description": {
+              "zh-CN": "The learner identifies and analyzes a problem, indicating a higher-order thinking process of analyzing."
+            }
+          }
+        }
+      ],
+      "other": [
+        {
+          "id": "http://example.edu/video-tutorials",
+          "definition": {
+            "type": "http://adlnet.gov/expapi/activities/video",
+            "name": { "zh-CN": "Understanding through Video Tutorials" },
+            "description": {
+              "zh-CN": "The learner seeks understanding of concepts presented in video tutorials, corresponding to the Bloom's taxonomy level of understanding."
+            }
+          }
+        },
+        {
+          "id": "http://example.edu/additional-resources",
+          "definition": {
+            "type": "http://adlnet.gov/expapi/activities/resource",
+            "name": {
+              "zh-CN": "Applying Knowledge by Accessing Additional Resources"
+            },
+            "description": {
+              "zh-CN": "The learner applies knowledge by accessing additional resources, a direct indication of the application level in Bloom's taxonomy."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "result": {
+    "response": "Learner successfully identified and analyzed a problem, understood concepts through video tutorials, and applied knowledge by accessing additional resources.",
+    "extensions": {
+      "http://example.com/extensions/BloomsTaxonomy": {
+        "Analysis": "Analyzing",
+        "Understanding": "Understanding",
+        "Application": "Applying"
+      }
+    }
+  }
+}
